@@ -1,0 +1,35 @@
+.filterBar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.filterPill {
+  padding: 0.32rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid #c9d7e6;
+  background: #ffffff;
+  color: #3f5f80;
+  font-size: 0.82rem;
+  cursor: pointer;
+  transition: background 160ms ease, color 160ms ease, border-color 160ms ease;
+}
+
+.filterPill:hover {
+  background: #f5f9ff;
+  border-color: #a9c3df;
+}
+
+.active {
+  background: #dbeafe;
+  color: #1d4f86;
+  border-color: #7ca7d5;
+}
